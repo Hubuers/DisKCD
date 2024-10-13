@@ -1,0 +1,15 @@
+exercise_text
+JVM、JRE、JDK三者的关系是JVM包含了JRE，JRE包含了JDK。
+Tomcat服务器的默认端口号是8085。
+CSS的中文名称是层叠样式表。
+web.xml文件通常存放在META-INF目录下。
+断开与数据库连接时，首先关闭Connection对象，再关闭Statement对象，最后关闭ResultSet对象。
+cookie的作用是在服务器端存储用户的状态信息。
+Filter的默认拦截方式是REQUEST。
+在客户端通过浏览器查看网页源文件时，无法看到HTML注释文字。
+JAVA语言中的标识符和关键字不区分大小写。
+在JAVA语言的二维数组中，各个子数组的长度可以不同。
+for语句与foreach语句有何关系？
+Java web应用程序中Listener监听器的作用是什么？
+HTTP请求响应机制的信息交换过程包含哪几个步骤？
+JDBC中Statement接口与PreparedStatement接口的作用有何不同？

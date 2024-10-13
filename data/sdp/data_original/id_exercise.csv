@@ -1,0 +1,13 @@
+exercise_text,
+策略模式使得算法可独立于使用它的客户类而变化。,Judgment 
+装饰模式主要是用于表示对象的“部分-整体”层次结构。,Judgment 
+聚合是一种很强的“拥有”关系，“部分”和“整体”的生命周期通常一样，整体对象完全支配其组成部分，包括它们的创建和销毁等。（       ）,Judgment 
+成员的可见性为private时，同一个包中的所有类及其他包中的子类都可以访问。,Judgment 
+B/S模式也被称为“胖客户端”模式。,Judgment 
+C/S架构与B/S架构有何区别？,Sub
+在Java EE架构中，控制器层、业务逻辑层、DAO层的作用分别是什么？,Sub
+面向对象设计原则主要有哪些？,Sub
+什么是依赖注入？常用的注入方式有哪些？,Sub
+在单例模式的编码实现过程中，需要注意哪些关键点？,Sub
+以下为工厂方法模式类图，请根据类图将空缺的代码补充完整。// 抽象产品类public interface TV{;} // 具体产品类public class HaierTV implements TV{public void play(){System.out.println("海尔电视机播放中");}}// 具体产品类public class HisenseTV implements TV{public void play(){System.out.println("海信电视机播放中");} }// 抽象工厂类public interface TVFactory{;}// 具体工厂类public class HaierTVFactory implements TVFactory{public TV produceTV(){System.out.println("海尔工厂生产海尔电视机。");;}}// 具体工厂类public class HisenseTVFactory implements TVFactory{public TV produceTV(){System.out.println("海信工厂生产海信电视机。");;}}// 客户端类public class Client{public static void main(String args[]){try{TVFactory factory=(TVFactory)XMLUtil.getBean();// 创建一个电视机对象tv// 调用tv对象的play()方法}catch(Exception e){System.out.println(e.getMessage());}}},Sub
+结合实例，绘制装饰模式的实例结构图，并编写主要部分代码。,Sub
